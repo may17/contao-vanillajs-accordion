@@ -1,0 +1,11 @@
+.accordion {
+  display: none;
+  height: 0;
+  overflow: hidden;
+  transition: height 350ms ease-in-out;
+}
+
+.accordion.active {
+  display: block;
+  height: auto;
+}

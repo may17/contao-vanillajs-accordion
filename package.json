@@ -1,0 +1,23 @@
+{
+  "name": "vanillajs",
+  "version": "1.0.0",
+  "description": "Simple vanilla js accordion solution",
+  "main": "index.js",
+  "scripts": {
+    "watch": "parcel watch src/assets/src/js/* -d src/assets --no-hmr",
+    "build": "parcel build src/assets/src/js/* -d src/assets"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/may17/contao-vanillajs-accordion.git"
+  },
+  "author": "Joe Ray Gregory",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/may17/contao-vanillajs-accordion/issues"
+  },
+  "homepage": "https://github.com/may17/contao-vanillajs-accordion#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.3"
+  }
+}

@@ -1,0 +1,12 @@
+<script>
+  ;(function () {
+    function init (event) {
+      var accordions = document.querySelectorAll('.ce_accordion')
+      createAccordions(accordions, {
+
+      })
+    }
+
+    document.addEventListener("DOMContentLoaded", init)
+  })
+</script>
